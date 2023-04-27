@@ -1,0 +1,85 @@
+@media screen and (max-width: 400px){
+    .aja{
+        justify-content: center;
+        width: 25%;
+        background-color: white;
+        border-color: transparent;
+        font-size: 25px;
+        justify-content: space-between;
+        
+    
+        
+    }
+}
+
+.busq{
+    display: flex;
+    background-color:white;
+    align-items:center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;             
+    z-index: 9999;
+}
+
+.input{
+    width:30% ;
+    margin-left: 20%;
+}
+
+.buttonss {
+    position: relative;
+    
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+
+.buttonimg{
+    width: 30px;
+    height: 30px;
+}
+
+
+.perf{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-image: url('https://static.nationalgeographic.es/files/styles/image_3200/public/01-leonardo-da-vinci-book-talk.jpg?w=1900&h=2279');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    margin-left: 10px;
+
+}
+
+.icon{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-image: url('https://img.icons8.com/ios-glyphs/256/send-letter.png');
+    background-size: 130%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    margin-left:20%;
+}
+
+.search{
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.logo{
+    width: 150px;
+    margin-left: 70px;
+}

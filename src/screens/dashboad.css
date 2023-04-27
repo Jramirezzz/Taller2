@@ -1,0 +1,49 @@
+.all{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    flex-wrap: wrap;
+    height:100%;
+    width: 100%;
+    justify-content: space-between;
+}
+.post{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+@media screen and (max-width: 480px){
+    .post{
+        width: 400px;
+    }
+}
+
+.trend{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;             
+    z-index: 9999;
+}
+.post{
+   display: flex;
+   justify-content: top;
+   margin: 0 auto;
+}
+.sugest{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;             
+    z-index: 9999;
+    left:88%;
+}

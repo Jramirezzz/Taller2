@@ -1,0 +1,27 @@
+.section{
+    
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+
+.button{
+    border-radius: 10px;
+    border-color: transparent;
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.img{
+    width: 40px ;
+    height: 40px;
+    margin-top: 20px;
+
+}
