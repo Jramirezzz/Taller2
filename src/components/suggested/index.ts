@@ -49,7 +49,7 @@ class Suggested extends HTMLElement {
             if (this.shadowRoot) {
                 this.shadowRoot.innerHTML = `
                 <section class="section">
-                <button class="aja">${this.name}</button>
+                <button>${this.name}</button>
                 </section>
                 `;
                 const css = this.ownerDocument.createElement("style");

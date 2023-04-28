@@ -29,12 +29,12 @@
     top: 0;
     left: 0;
     width: 100%;             
-    z-index: 9999;
 }
 .post{
    display: flex;
    justify-content: top;
    margin: 0 auto;
+   z-index: 1;
 }
 .sugest{
     margin-top: 60px;
@@ -44,6 +44,5 @@
     top: 0;
     left: 0;
     width: 100%;             
-    z-index: 9999;
-    left:88%;
+    left:90%;
 }

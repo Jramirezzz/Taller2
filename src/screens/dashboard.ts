@@ -40,7 +40,6 @@ class Dashboard extends HTMLElement{
                 const trend = this.ownerDocument.createElement(
                     "my-trend"
                     ) as trending;
-                    trend.setAttribute(attribute.image, user.image);
                     trend.setAttribute(attribute.name, user.name);
                     this.Trending.push(trend);
                 });
@@ -64,9 +63,12 @@ class Dashboard extends HTMLElement{
                  
             const post = this.ownerDocument.createElement("section")
             post.className = "post";
-            this.shadowRoot.innerHTML += `
-                <my-bar></my-bar>
-                `;
+            for (let index = 0; index < this.posts.length; index++) {
+                post.appendChild(this.posts[index]);
+            }  
+
+            const an = this.ownerDocument.createElement("my-bar")
+            this.shadowRoot?.appendChild(an);
 
             const sugest = this.ownerDocument.createElement("section")
             sugest.className = "sugest";
@@ -78,10 +80,6 @@ class Dashboard extends HTMLElement{
             this.Trending.forEach((profile) => {
                 trend.appendChild(profile);
             });
-            
-            for (let index = 0; index < this.posts.length; index++) {
-                post.appendChild(this.posts[index]);
-            }  
 
             const all = this.ownerDocument.createElement("section")
             all.className = "all";

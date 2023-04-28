@@ -50,7 +50,7 @@ class MyTrend extends HTMLElement {
                 this.shadowRoot.innerHTML = `
                 <section class ="section">
                 
-                <img class="img" src ="${this.image}"><button class="button">${this.name} </button>
+                <button class="button"> <img class="img" src ="../src/fotos/hash.png"> ${this.name} </button>
                 </section>
                 `;
                 const css = this.ownerDocument.createElement("style");

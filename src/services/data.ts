@@ -4,7 +4,7 @@ const data: DataShape[] = [
     {
         profile: "https://pbs.twimg.com/profile_images/1617678299483840512/_vCVju_N_400x400.jpg",
         user: "elpp",
-        description: "running in the sky",
+        description: "Running in the sky",
         image: "https://pbs.twimg.com/media/Fr7wL6NWYAEIxDW?format=jpg&name=900x900",
         countlikes: 50,
         countcomments: 80,

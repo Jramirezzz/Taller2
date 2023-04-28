@@ -38,5 +38,5 @@ class login extends HTMLElement{
             }
         }
 }
-customElements.define("my-login", login);
+customElements.define("my-signin", login);
 export default login;

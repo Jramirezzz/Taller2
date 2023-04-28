@@ -14,7 +14,7 @@
 
 .busq{
     display: flex;
-    background-color:white;
+    background-color:#D9D9D9;
     align-items:center;
     position: fixed;
     top: 0;
@@ -26,6 +26,7 @@
 .input{
     width:30% ;
     margin-left: 20%;
+    background-color: whitesmoke;
 }
 
 .buttonss {
@@ -44,8 +45,10 @@
 
 
 .perf{
-    width: 75px;
-    height: 75px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
     background-image: url('https://static.nationalgeographic.es/files/styles/image_3200/public/01-leonardo-da-vinci-book-talk.jpg?w=1900&h=2279');
     background-size: cover;
@@ -57,8 +60,10 @@
 }
 
 .icon{
-    width: 75px;
-    height: 75px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
     background-image: url('https://img.icons8.com/ios-glyphs/256/send-letter.png');
     background-size: 130%;
@@ -69,11 +74,12 @@
 }
 
 .search{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 10%;
     background-image: url('https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png');
     background-size: 100%;
+    background-color: transparent;
     background-position: center;
     background-repeat: no-repeat;
     border: none;

@@ -13,7 +13,7 @@ const data: Data[] =[
         name: "PoleAlonso"
     },    
     {
-        name: "ArgentinaGana"
+        name: "Argentina Gana"
     },   
 ];
     

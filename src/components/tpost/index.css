@@ -1,9 +1,12 @@
 .prof{
+    display: flex;
     width: 70px;
     height: 70px;
+    border: 5px;
     border-radius: 50%;
+    border-color: white;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .all
 {
@@ -11,7 +14,7 @@
     flex-direction: column;
     width: 800px;
     height: 950px;
-    background-color:white;
+    background-color: #D9D9D9;
     border-radius: 15px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -19,30 +22,78 @@
 .up{
     display: flex;
     flex-direction: row;
-}
-.us
-{
-    margin-left: 10px;
+    background-color: #020E26;
+    border-radius: 15px;
+    position: relative;
 }
 
-button{
-    width: 30px;
-    height: 30px;
-    background: transparent;
-    border: transparent;
+.us
+{
     display: flex;
-    flex-direction: row;
+    font-size: 110%;
     margin-left: 10px;
+    color: #D9D9D9;
 }
-.i1{
-    width: 30px;
-    height: 30px;
-    margin-left: 5px;
+
+.likes{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1077/1077035.png');
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #D9BA5F;
 }
+
+.comments{
+    background-image: url('https://icons.veryicon.com/png/o/hardware/jackdizhu_pc/comment-25.png');
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #D9BA5F;
+}
+
+.repost{
+    background-image: url('https://static.thenounproject.com/png/3566328-200.png');
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #D9BA5F;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    width: 70px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid #8F9092;
+    transition: all 0.2s ease;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #606060;
+    text-shadow: 0 1px #fff;
+  }
+  
+  button:hover {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+  }
+  
+  button:active {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  }
+  
+  button:focus {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  }
 
 .nd{
     display: flex;
     flex-direction: row;
+    margin-top: 5px;
+    justify-content: center;
 }
 .us{
     margin-top: 60px;
@@ -59,7 +110,8 @@ button{
 
 .p1
 {
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 20px;
 }
 
 

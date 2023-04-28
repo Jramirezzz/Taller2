@@ -84,11 +84,11 @@ class Tpost extends HTMLElement{
                     </section>
                 <img class ="pimg" src="${this.image}">
                     <section class = "nd">  
-                    <button><img class = "i1" src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png"></button>
+                    <button class="likes"></button>
                     <p class="p1">${this.countlikes}</p>
-                    <button><img class = "i1" src="https://icons.veryicon.com/png/o/hardware/jackdizhu_pc/comment-25.png"></button>
+                    <button class="comments"></button>
                     <p class="p1">${this.countcomments}</p>
-                    <button><img class = "i1" src="https://static.thenounproject.com/png/3566328-200.png"></button>
+                    <button class="repost"></button>
                     <p class="p1">${this.countrepost}</p>
                     </section>
                 </section>
