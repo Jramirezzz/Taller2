@@ -49,7 +49,6 @@ class MyTrend extends HTMLElement {
             if (this.shadowRoot) {
                 this.shadowRoot.innerHTML = `
                 <section class ="section">
-                
                 <button class="button"> <img class="img" src ="../src/fotos/hash.png"> ${this.name} </button>
                 </section>
                 `;

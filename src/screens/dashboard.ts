@@ -1,8 +1,8 @@
-import data from "../services/data";
+import data from "../mocks/data";
 import  Tpost, { Attribute } from "../components/tpost/tpost";
-import dataT from "../services/dataT";
+import dataT from "../mocks/dataT";
 import suggested, { Atributos} from "../components/suggested/index";
-import dataS from "../services/dataS";
+import dataS from "../mocks/dataS";
 import trending, {attribute} from "../components/trending/index";
 import styles from './dashboad.css';
 
@@ -72,11 +72,24 @@ class Dashboard extends HTMLElement{
 
             const sugest = this.ownerDocument.createElement("section")
             sugest.className = "sugest";
+
+            const sugestittle = this.ownerDocument.createElement("h1");
+            sugestittle.className = "sugestt";
+            sugestittle.textContent="Topics"
+            sugest.appendChild(sugestittle)
+
              this.Suggested.forEach((profile) => {
                 sugest.appendChild(profile);
             });
+
             const trend = this.ownerDocument.createElement("section")
             trend.className = "trend";
+
+            const trendtittle = this.ownerDocument.createElement("h1");
+            trendtittle.className = "trendt";
+            trendtittle.textContent="Hashtags Trends"
+            trend.appendChild(trendtittle)
+
             this.Trending.forEach((profile) => {
                 trend.appendChild(profile);
             });
