@@ -1,11 +1,25 @@
 import styles from './index.css';
+enum export Attribute{
+    
+"placeholder" = "placeholder"
+    
+}
 class login extends HTMLElement{
-
-
+    
+    placeholder?: string,
 
     constructor(){
         super();
         this.attachShadow({mode:"open"});
+    }
+    
+    static get observedAttributes(){
+        const attrs: Record<Attribute, null> = {
+           
+            placeholder:null,
+            
+        };
+        return Object.keys(attrs);
     }
 
    
