@@ -1,5 +1,6 @@
 import styles from './index.css';
-enum export Attribute{
+
+export enum Attribute{
     
 "placeholder" = "placeholder"
     
