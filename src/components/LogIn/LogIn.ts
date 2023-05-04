@@ -1,7 +1,7 @@
-import styles from './index.css';
-class login extends HTMLElement{
 
-
+export default class login extends HTMLElement{
+    
+    placeholder?:string
 
     constructor(){
         super();
@@ -15,28 +15,13 @@ class login extends HTMLElement{
       }
 
 
-
         render(){
             if(this.shadowRoot){
-                this.shadowRoot.innerHTML=`
-                <section class="all">
-                <section>
-                Sign In 
-                </section>
-                <section>
-                <input type= "text" class="input1" name="User Name"
-                <input type= "email" class="input2" name="Email"
-                <input type= "password" class="input3" name="Password"
-                <button class>Enter</button>
-                </section>
-                   
-                </section>
-                `;
-                const css = this.ownerDocument.createElement("style");
-                css.innerHTML = styles;
-                this.shadowRoot?.appendChild(css);
+                this.shadowRoot.innerHTML=``;
+
+                const input = this.ownerDocument.createElement("input")
+                this.shadowRoot?.appendChild(input)
             }
         }
 }
-customElements.define("my-signin", login);
-export default login;
+customElements.define("my-login", login);
